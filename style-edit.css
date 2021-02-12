@@ -1,0 +1,103 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: #fff;
+    
+}
+.container{
+    max-width: 428px;
+    margin: 0 auto;
+    background-color: #313438;
+    height: auto;
+}
+.hero{
+
+    background: linear-gradient(90deg, rgba(0,196,128,1) 0%, rgba(11,80,124,1) 50%, rgba(22,131,180,1) 100%);
+    padding: 2em 0;
+}
+.back-btn{
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+.hero-info{
+    display: inline;
+    flex-flow: 1.5em;
+    align-items: center;
+}
+i{
+    font-size: 1.5em;
+}
+.relationship{
+    width: 6em;
+    text-align: center;
+    padding: .4em .5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: #75a85e;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-info{
+    padding: 1.5em 0.75em;
+}
+.info-line{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border-radius: 20px;
+    box-shadow:  13px 13px 33px #1b1d1f,
+             -13px -13px 33px #474b51;;
+}
+
+p{
+    margin: 0;
+    padding-left: 2em;
+}
+.icom-gradienf{
+    background: linear-gradient(90deg,rgba(66,159,124,1) 0%, rgba(161,193,78,1)100%);
+    border-radius: 100px;
+    padding: .5em;
+}
+.edit-contact{
+    color: #75a85e;
+    padding: 1.5em 3.5em;
+    text-align: center;
+}
+.type{
+    border: none;
+    background: none;
+    padding-left: 1em;
+    font-size: 0.6em;
+    outline: none;
+    color: #fff;
+}
+.button-container{
+    padding: 0.5em 1.5em;
+
+}
+.update-contact{
+    display: inline;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    box-shadow:  13px 13px 33px #1b1d1f,
+             -13px -13px 33px #474b51;;
+}
+.button{
+    border: none;
+    font-size: 0.3em;
+    padding-left: 0.4em;
+    outline: none;
+    color: #fff;
+    background-color: #313438;
+}
